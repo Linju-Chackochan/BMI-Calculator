@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+</head>
+
+<style>
+    body {
+        background-color: blue;
+        font-size: 30px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    button {
+        margin-left: 520px;
+        height: 40px;
+        width: 150px;
+        background-color: lightsteelblue;
+        border: px solid black;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    label {
+        margin-left: 90px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    input {
+        background-color: lightblue;
+        font-size: 25px;
+    }
+</style>
+
+<body>
+    <h1>BMI Calculator</h1>
+    <div style="background-color: lightskyblue;margin-left: 430px;width: 600px;">
+        <div><br>
+            <label for="">Age :</label>
+            <input type="number" style="margin-left: 85px;"><br>
+            <label for="Male" name="gender" value="Male" id="Male">Male</label>
+            <input type="radio" name="gender">
+
+            <label for="Female" name="gender" value="Female" id="Female">Female</label>
+            <input type="radio" name="gender"><br>
+        </div>
+        <div>
+            <label for="">Height(cm)*:</label>
+            <input type="text" id="height"><br>
+            <br>
+            <label for="">Weight(kg)*:</label>
+            <input type="text" id="weight"><br><br><br><br>
+        </div>
+    </div><br>
+    <button id="Calc">Calculate</button><br><br>
+
+    <div id="resultDiv" style="background-color: lightblue;text-align: center;"></div>
+
+</body>
+<script src="./bmi.js">
+
+</script>
+
+
+
+</html>
